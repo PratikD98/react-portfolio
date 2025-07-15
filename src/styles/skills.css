@@ -55,4 +55,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 0;
   }
+  .timeline {
+    margin-right: 30px;
+  }
 }

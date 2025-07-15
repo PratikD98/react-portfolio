@@ -3,7 +3,7 @@ const experienceData = [
     side: "left",
     title: "Web Developer Analyst",
     subtitle: "Accenture",
-    date: "Aug 2022- Presents",
+    date: "Aug 2022- Present",
     points: [
       "Designed and maintained scalable, responsive web applications using React.js, WordPress, and custom HTML/CSS/JS for client-specific needs.",
       "Developed automation scripts using Python and JavaScript, resulting in a 30% improvement in workflow efficiency.",
