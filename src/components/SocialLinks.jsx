@@ -14,10 +14,6 @@ const SocialLinks = () => {
         <img src={LinkedInIcon} alt="LinkedIn" />
       </a>
       <a href="https://x.com/PratikD70952346" target="_blank" rel="noreferrer">
-<<<<<<< HEAD
-        <img src="src/assets/icons/twitter-x.svg" alt="X (Twitter)" />
-=======
->>>>>>> b40f9cb (Fix: Social icons not showing on Netlify)
         <img src={Twitter} alt="X (Twitter)" />
       </a>
       {/* <a href="https://stackoverflow.com/" target="_blank" rel="noreferrer">
