@@ -1,0 +1,155 @@
+.hero {
+  background-color: #111;
+  color: #fff;
+  padding: 64px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.text-section {
+  flex: 1;
+  padding: 16px 50px;
+  min-width: 300px;
+}
+
+.text-section h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.text-section .wave {
+  animation: wave 2s infinite;
+  display: inline-block;
+}
+
+@keyframes wave {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+}
+
+.text-section h2 {
+  font-size: 24px;
+  color: #aaa;
+}
+
+.typed-text {
+  color: #e63946;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  margin-top: 32px;
+}
+
+.cta-buttons {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.btn {
+  padding: 14.4px 35.2px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  font-size: 16px;
+  text-align: center;
+}
+
+.resume-btn {
+  background-color: #e63946;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(230, 57, 70, 0.4);
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(230, 57, 70, 0.5);
+}
+
+.contact-btn {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
+}
+
+.profile-circle img {
+  width: 400px;
+  height: auto;
+  border-radius: 20%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section h1 {
+    font-size: 40px;
+  }
+
+  .text-section h2 {
+    font-size: 19.2px;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .profile-circle img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-section h1 {
+    font-size: 32px;
+  }
+
+  .text-section h2 {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 12.8px 24px;
+    font-size: 14.4px;
+    width: 100%;
+  }
+
+  .profile-circle img {
+    width: 250px;
+  }
+}
